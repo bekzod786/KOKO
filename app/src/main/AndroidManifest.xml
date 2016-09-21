@@ -23,6 +23,9 @@
         <activity android:name="koko.android.com.koko.SignupActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Dark" />
+        <activity android:name="koko.android.com.koko.SecondActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

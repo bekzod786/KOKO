@@ -3,11 +3,21 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="select_v">Select Video files to upload</string>
+    <string name="select_or">or drag and drop video files</string>
+    <string name="select_text">By submitting your videos to circle, you</string>
+    <string name="select_text1">acknowledge that you agreeto circle`s</string>
+    <string name="select_text1_2">  Terms of</string>
+    <string name="select_text2">Service</string>
+    <string name="select_text2_1">and</string>
+    <string name="select_text2_2">Community Guidelines.</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="upload">Upload Video</string>
+    <string name="close">Log out</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="hello_blank_fragment_one">Hello blank fragment ONE</string>
-    <string name="hello_blank_fragment_two">Hello blank fragment TWO</string>
+    <string name="hello_blank_fragment_one">KOKO</string>
+    <string name="hello_blank_fragment_two">KOKO1</string>
 </resources>

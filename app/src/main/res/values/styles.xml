@@ -14,7 +14,7 @@
 
         <item name="colorControlNormal">@color/iron</item>
         <item name="colorControlActivated">@color/hint_text</item>
-        <item name="colorControlHighlight">@color/hint_text</item>
+        <item name="colorControlHighlight">@color/accent</item>
         <item name="android:textColorHint">@color/iron</item>
 
         <item name="colorButtonNormal">@color/primary_darker</item>
@@ -22,7 +22,7 @@
     </style>
 
     <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
-        <item name="colorAccent">@color/hint_text</item>
+        <item name="colorAccent">@color/accent</item>
         <item name="android:textColorPrimary">@color/iron</item>
         <item name="android:background">@color/primary</item>
     </style>
@@ -32,6 +32,14 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/text2</item>
+
+        <item name="android:actionBarTheme">@color/hint_text</item>
+        <item name="android:textColorPrimary">@color/check_text</item>
+
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

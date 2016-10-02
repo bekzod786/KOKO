@@ -1,0 +1,277 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="koko.android.com.koko.FragmentUpload">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="90dp"
+            android:background="@drawable/upload_vid"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="45dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_v"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_or"
+            android:textColor="@color/text3"
+            android:textSize="13sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/upload_vidd"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:text="@string/upload"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_press_pink_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_text"
+            android:textColor="@color/text3"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_text1"
+            android:textSize="14sp"
+            android:textColor="@color/text3"/>
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_text1_2"
+            android:textSize="14sp"
+            android:textColor="@color/accent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_text2"
+            android:textSize="14sp"
+            android:textColor="@color/accent"/>
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_text2_1"
+            android:textSize="14sp"
+            android:textColor="@color/text3"/>
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_text2_2"
+            android:textSize="14sp"
+            android:textColor="@color/accent"/>
+
+    </LinearLayout>
+    <ImageView
+
+        android:src="@drawable/logo"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/link_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="@color/hint_text"
+            android:textSize="16dip"/>
+
+        <TextView android:id="@+id/link_press"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press"
+            android:textColor="@color/hint_text"
+            android:textSize="16dip"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView android:id="@+id/link_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright"
+            android:textColor="@color/hint_text"
+            android:textSize="16dip"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView android:id="@+id/link_adver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advertise"
+            android:textColor="@color/hint_text"
+            android:textSize="16dip"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <ImageView android:src="@drawable/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal">
+
+        <ImageView android:src="@drawable/facebook"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView android:src="@drawable/tiwitter"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center_horizontal" />
+        <ImageView android:src="@drawable/gmail"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center_horizontal" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textAlignment="center">
+
+        </Spinner>
+
+    </LinearLayout>
+    <ImageView android:src="@drawable/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/link_term"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms"
+            android:textColor="@color/text3"
+            android:textSize="16dip"/>
+
+        <TextView android:id="@+id/link_priv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy"
+            android:textColor="@color/text3"
+            android:textSize="16dip"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textColor="@color/text3"
+            android:textSize="16dip"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView android:id="@+id/link_cop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyrights 2016"
+            android:textColor="@color/text3"
+            android:textSize="16dip"
+            android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

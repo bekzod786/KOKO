@@ -26,24 +26,24 @@
             <!--android:background="@drawable/line" />-->
     <!--</LinearLayout>-->
 
-    <LinearLayout
-        android:id="@+id/close"
-        android:clickable="true"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:background="@drawable/bg_diss_button"
-        android:gravity="center">
+    <!--<LinearLayout-->
+        <!--android:id="@+id/close"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:background="@drawable/bg_diss_button"-->
+        <!--android:gravity="center">-->
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/close"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
-    </LinearLayout>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/close"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="16sp" />-->
+    <!--</LinearLayout>-->
 
 
 

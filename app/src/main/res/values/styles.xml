@@ -7,7 +7,7 @@
 
     <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
 
         <item name="android:windowBackground">@color/primary</item>
@@ -34,11 +34,11 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
 
         <item name="colorPrimary">@color/accent</item>
-        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/text2</item>
 
         <item name="android:actionBarTheme">@color/hint_text</item>
-        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/check_text</item>
 
     </style>
 

@@ -62,9 +62,8 @@ private DrawerLayout drawer;
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-      //  navigationView.setItemIconTintList(null);
-     //   navigationView.getHeaderView(0).findViewById(R.id.upload).setOnClickListener(this);
-//        navigationView.findViewById(R.id.close).setOnClickListener(this);
+        navigationView.getHeaderView(0).findViewById(R.id.upload).setOnClickListener(this);
+        navigationView.findViewById(R.id.close).setOnClickListener(this);
     }
 //
 //    @Override
@@ -101,9 +100,7 @@ private DrawerLayout drawer;
         Fragment fragment = null;
         Class fragmentClass = null;
 
-        if (id == R.id.nav_home) {
-            fragmentClass = FragmentOne.class;
-        } else if (id == R.id.nav_camera) {
+        if (id == R.id.nav_camera) {
             fragmentClass = FragmentOne.class;
         } else if (id == R.id.nav_gallery) {
             fragmentClass = FragmentUpload.class;
@@ -113,10 +110,6 @@ private DrawerLayout drawer;
             fragmentClass = FragmentTwo.class;
         } else if (id == R.id.nav_share) {
             fragmentClass = FragmentOne.class;
-        } else if (id == R.id.nav_sett) {
-            fragmentClass = FragmentOne.class;
-        } else if (id == R.id.nav_exit) {
-            fragmentClass = FragmentOne.class;
         }
         try {
             fragment = (Fragment) fragmentClass.newInstance();
@@ -125,7 +118,6 @@ private DrawerLayout drawer;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
-   //     fragmentManager.beginTransaction().remove(R.id.nav_exit).commit();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -140,13 +132,13 @@ private DrawerLayout drawer;
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-//            case R.id.upload:
-//                getSupportFragmentManager().beginTransaction().replace(R.id.flContent, new FragmentUpload()).commit();
-//                drawer.closeDrawers();
-//                break;
-//            case R.id.close:
-//                finish();
-//                break;
+            case R.id.upload:
+                getSupportFragmentManager().beginTransaction().replace(R.id.flContent, new FragmentUpload()).commit();
+                drawer.closeDrawers();
+                break;
+            case R.id.close:
+                finish();
+                break;
 
         }
     }

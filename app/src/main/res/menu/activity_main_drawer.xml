@@ -4,25 +4,38 @@
     <group android:checkableBehavior="single">
 
         <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_36dp"
+            android:title="Home" />
+        <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/player"
+            android:icon="@drawable/ic_popular"
             android:title="Popular Videos" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/categories"
-            android:title="Browse Categories" />
+            android:icon="@drawable/ic_watch"
+            android:title="Watchlist" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/like"
+            android:icon="@drawable/ic_liked"
             android:title="Liked Videos" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/history"
+            android:icon="@drawable/ic_history"
             android:title="History" />
         <item
             android:id="@+id/nav_share"
-            android:icon="@drawable/purchase"
+            android:icon="@drawable/ic_purchased"
             android:title="Purchased Videos" />
+        <item
+            android:id="@+id/nav_sett"
+            android:icon="@drawable/ic_setting"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
     </group>
 
 

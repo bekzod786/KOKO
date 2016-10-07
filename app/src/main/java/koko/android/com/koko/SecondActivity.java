@@ -62,8 +62,9 @@ private DrawerLayout drawer;
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        navigationView.getHeaderView(0).findViewById(R.id.upload).setOnClickListener(this);
-        navigationView.findViewById(R.id.close).setOnClickListener(this);
+        //  navigationView.setItemIconTintList(null);
+        //   navigationView.getHeaderView(0).findViewById(R.id.upload).setOnClickListener(this);
+//        navigationView.findViewById(R.id.close).setOnClickListener(this);
     }
 //
 //    @Override
@@ -100,7 +101,9 @@ private DrawerLayout drawer;
         Fragment fragment = null;
         Class fragmentClass = null;
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
+            fragmentClass = FragmentOne.class;
+        } else if (id == R.id.nav_camera) {
             fragmentClass = FragmentOne.class;
         } else if (id == R.id.nav_gallery) {
             fragmentClass = FragmentUpload.class;
@@ -109,6 +112,10 @@ private DrawerLayout drawer;
         } else if (id == R.id.nav_manage) {
             fragmentClass = FragmentTwo.class;
         } else if (id == R.id.nav_share) {
+            fragmentClass = FragmentOne.class;
+        } else if (id == R.id.nav_sett) {
+            fragmentClass = FragmentOne.class;
+        } else if (id == R.id.nav_exit) {
             fragmentClass = FragmentOne.class;
         }
         try {
@@ -132,13 +139,13 @@ private DrawerLayout drawer;
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.upload:
-                getSupportFragmentManager().beginTransaction().replace(R.id.flContent, new FragmentUpload()).commit();
-                drawer.closeDrawers();
-                break;
-            case R.id.close:
-                finish();
-                break;
+//            case R.id.upload:
+//                getSupportFragmentManager().beginTransaction().replace(R.id.flContent, new FragmentUpload()).commit();
+//                drawer.closeDrawers();
+//                break;
+//            case R.id.close:
+//                finish();
+//                break;
 
         }
     }
